@@ -14,7 +14,6 @@ function maxRecurringChar(characters) {
 
   const arrValue = Object.values(obj);
   let maxCount = Math.max(...arrValue);
-  console.log(maxCount);
 
   const arrKey = Object.keys(obj);
 
