@@ -1,0 +1,72 @@
+.left-top,
+.left-bottom,
+.right-top,
+.right-bottom {
+    padding: 16px;
+    display: inline-block;
+    border: 1px solid black;
+    padding: 1rem 1rem;
+    vertical-align: middle;
+    margin: 10px;
+    font-size: 12px;
+}
+
+.left-top, .right-bottom{
+    border: 1px solid black;
+    color: white;
+    background-color: red;
+
+}
+
+.left-bottom, .right-bottom{
+    margin-top: 50px;
+}
+
+.left-bottom{
+    position: relative;
+}
+
+
+
+
+.circle {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background-color: pink;
+    position:absolute;
+    border: 1px solid black;
+    top: -40px;
+    right: -20px;
+
+}
+
+.top{
+    border: 1px solid black;
+    margin: 1rem;
+    padding: 2rem 2rem;
+
+}
+
+.top-inner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bottom-big-container{
+    border: 1px solid black;
+    margin: 1rem;
+    padding: 1px 5px;
+    font-size: 12px;
+    overflow:scroll; 
+    height:250px;
+
+}
+
+.App{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+

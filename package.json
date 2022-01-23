@@ -1,0 +1,23 @@
+{
+  "name": "tech-test-junior-fullstack-engineer",
+  "version": "1.0.0",
+  "description": "Quick Tests in JS and React",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/enboarder/tech-test-junior-fullstack-engineer.git"
+  },
+  "author": "enboarder",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/enboarder/tech-test-junior-fullstack-engineer/issues"
+  },
+  "homepage": "https://github.com/enboarder/tech-test-junior-fullstack-engineer#readme",
+  "dependencies": {
+    "@mui/material": "^5.3.0",
+    "lodash": "^4.17.21"
+  }
+}
